@@ -35,7 +35,7 @@ weather.setCoord(34.0522, -118.2437); //changes from New York to Los Angles.
 
 weather.startRequest();
 
-After the request (if its valid) you can gather weather information.
+After the request (if its valid) you can gather weather information from that location (i.e. Los Angles).
 
 1. weather.getInfo(weather.lat); // returns 34.0522
 
