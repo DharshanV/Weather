@@ -2,8 +2,11 @@
 A C++ real time weather class by using SFML.
 
 -Required files-
+
 SFML\Network.hpp
+
 sfml-network.lib
+
 sfml-network-d.lib
 
 Properly include the SFML files above and the network files. It should work.
