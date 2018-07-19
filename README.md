@@ -26,14 +26,20 @@ For example:
 
 Weather weather("New York");
 
-weather.setCoord(34.0522, -118.2437); //changes from New York to Los Angles
-...
+weather.setCoord(34.0522, -118.2437); //changes from New York to Los Angles.
+
+{....}
+
 weather.startRequest();
 
 After the request (if its valid) you can gather weather information.
-Such as:
-weather.getInfo(weather.lat); // returns 34.0522
-weather.getInfo(weather.lon); // returns -118.2437
-weather.getInfo(weather.temp); //returns 300.98 in kelvin at the time of writing this.
+
+1. weather.getInfo(weather.lat); // returns 34.0522
+
+2. weather.getInfo(weather.lon); // returns -118.2437
+
+3. weather.getInfo(weather.temp); //returns 300.98 in kelvin at the time of writing this.
+
 ...
+
 and many others.
